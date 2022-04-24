@@ -4,6 +4,7 @@
   "description": "Shuffles an array of numbers into a random order",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "repository": {

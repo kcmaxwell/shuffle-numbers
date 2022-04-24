@@ -29,4 +29,5 @@ function randomInRange(min, max) {
 
 module.exports = { shuffleArray, randomInRange };
 
-console.dir(shuffleArray(10000), {'maxArrayLength': null});
+let n = 10000;
+console.dir(shuffleArray(n), {'maxArrayLength': null});
