@@ -1,12 +1,12 @@
 /**
- * Creates an array of length n with numbers 1..n, then shuffles and returns it.
+ * Creates an array of length n with values 1..n, then shuffles and returns it.
  * @param {number} n The length of the array.
- * @returns {number[]} The shuffled array of integers.
+ * @returns {number[]} The shuffled array of integers. Returns [] if n <= 0.
  */
 function shuffleArray(n) {
-    nums = Array.from({length: n}, (value, index) => index);
+    nums = Array.from({length: n}, (value, index) => index + 1);
 
-    for (let i = 0; i < n - 2; i++) {
+    for (let i = 0; i < n - 1; i++) {
         let j = randomInRange(i, n - 1);
 
         let temp = nums[j];
@@ -29,4 +29,4 @@ function randomInRange(min, max) {
 
 module.exports = { shuffleArray, randomInRange };
 
-console.dir(shuffleArray(1), {'maxArrayLength': null});
+console.dir(shuffleArray(10000), {'maxArrayLength': null});
