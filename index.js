@@ -27,4 +27,6 @@ function randomInRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-console.dir(shuffleArray(10000), {'maxArrayLength': null});
+module.exports = { shuffleArray, randomInRange };
+
+console.dir(shuffleArray(1), {'maxArrayLength': null});

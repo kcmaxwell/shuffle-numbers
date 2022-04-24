@@ -1,0 +1,23 @@
+{
+  "name": "shuffle-numbers",
+  "version": "1.0.0",
+  "description": "Shuffles an array of numbers into a random order",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcmaxwell/shuffle-numbers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kcmaxwell/shuffle-numbers/issues"
+  },
+  "homepage": "https://github.com/kcmaxwell/shuffle-numbers#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
