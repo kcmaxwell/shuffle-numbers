@@ -2,7 +2,8 @@
 Shuffles an array of numbers into a random order
 
 ## Requirements
-This program can be run using Node. The tests use Jest.
+This program requires Node.js to be run.
+The tests require Jest to be installed.
 
 ## Usage
 With Node installed, run `node index.js` or `npm start` in the console.
